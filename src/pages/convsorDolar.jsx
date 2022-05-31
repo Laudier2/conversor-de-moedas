@@ -38,7 +38,7 @@ export default function Converso() {
                 </div>
               </div>
               <input
-                type="number"
+                type="text"
                 className="form-control h1-m mrg col-md-8"
                 placeholder='1,00'
                 onChange={(e) => setValues(e.target.value)}
